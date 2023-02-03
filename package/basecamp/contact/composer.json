@@ -1,0 +1,13 @@
+{
+    "name": "basecamp/contact",
+    "description": "A Simple Laravel Package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Basecamp\\Contact\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
