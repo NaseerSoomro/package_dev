@@ -21,7 +21,7 @@
         <h3> Welcome to Contact Form </h3>
         <form action="{{ url('/contact') }}" method="post">
             <div class="form-group">
-                <label for="">Name</label>
+                <label for="">User name</label>
                 <input type="text" class="form-control" name="name" id="" aria-describedby="helpId"
                     placeholder="">
             </div>
