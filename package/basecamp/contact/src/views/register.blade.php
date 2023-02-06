@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Our Created Package</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,11 +15,11 @@
 <body>
 
     <div class="container mt-3 col-md-4">
-        @if (session('success'))
-            <h4 class="alert alert-success"> {{ session('success') }} </h4>
+        @if (session('message'))
+            <h4 class="alert alert-success"> {{ session('message') }} </h4>
         @endif
-        <h3> Welcome to Contact Form </h3>
-        <form action="{{ url('/contact') }}" method="post">
+        <h3> Welcome to Register Form </h3>
+        <form action="" method="post">
             <div class="form-group">
                 <label for="">User name</label>
                 <input type="text" class="form-control" name="name" id="" aria-describedby="helpId"
@@ -38,6 +38,7 @@
                     placeholder="">
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
+            <p> Already have an account <a href=""> Login </a> </p>
         </form>
     </div>
     <!-- Optional JavaScript -->
